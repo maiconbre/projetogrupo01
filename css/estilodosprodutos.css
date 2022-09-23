@@ -1,0 +1,120 @@
+
+.one{
+  width: 100%; /**largura**/
+  height: 4px;/**altura**/
+  background: rgb(253,202,191) /**cor de fundo  linha do menu**/
+}
+/**TOPO DO SITE **/
+.header{
+  width:100%; /**largura da barra do menu**/
+  background: rgb(255, 95, 95); /**cor do fundo**/
+  padding: 15px ;/**altura da barra de menu**/ 
+
+}
+
+
+.topo{
+  text-align: right ; /**texto alinhado do lado direito**/
+}
+
+.topo ul li{
+  display: inline-block;/** texto alinhado do lado do outro**/
+  
+  margin-left: 30px; /**espaçamento do menu**/
+  margin-top: 40px; /**altura do menu**/
+
+}.topo ul li a{
+  font-family: arial; /**fonte**/
+  font-size: 15px; /**tamanho da fonte**/
+  font-weight: bold; /**fonte em italico**/
+  color: #fff ; /**cor da fonte da barra do menu**/
+  text-transform: uppercase ; /**nome maisculo**/
+  line-height: 15px;/**espaçamento da letras**/
+}
+/**mudar a cor da barra de navegação**/
+.topo ul li a:hover{ 
+  color:black /**cor da barra de navegação!**/
+  
+}
+.header img{
+  width:120px; /** imagem /tamanho do logo**/
+}
+/**FIM TOPO DO SITE**/
+
+/**INICIO BANNER DO SITE**/
+.banner{
+  width:100% ;
+  height: 250px; 
+  background: url(../img/fundodobanner.jpg) no-repeat center;/**imagem de fundo  centralizada**/
+  background-size:cover;
+  text-align: center;
+ 
+}
+.banner h1{
+  font-family:Georgia;/** fonte do h1**/
+  font-size: 35px;/**tamanho da letra*/
+  font-weight: bold;
+  color:blanchedalmond;/** cor da fonte**/
+  text-transform: uppercase; /** letra maiuscula**/
+  margin-top: 40px ; /**altura do texto**/
+  text-shadow:rgb(48, 46, 46) 2px 2px 10px;/**cor do fundo da letra */
+
+}
+.banner a{
+  text-transform: uppercase;/**texto dentro do banner alinhado*/
+  font-weight:bold ;
+  padding: 25px 20px;
+  
+}
+
+
+.menu img{   /**imagem dos pedidos*/
+  width:200px;
+  
+}
+
+.menu h2{ /** texto dos melhores bolos da cidade**/
+  font-family:arial;/***fonte do texto*/
+  font-size: 25px;/**tamanho do texto**/
+  text-align: center;/***texto centralizado**/
+  color: rgb(97, 6, 6);/**cor do texto**/
+  text-transform:uppercase;/**texto maiusculo**/
+}
+.bolos li{ /***texto da imagem dos bolos**/
+  font-family: Arial;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  line-height: 20px;/**altura do texto**/
+margin-bottom: 10px;
+}
+/***transição de almento da imagem***/
+.bolos img{
+  -webkit-transition: -webkit-trasnform .5s ease;
+  transition: transform .5s ease;
+
+}
+.bolos img:hover{
+  -webkit-transform: scale(1.5) ;
+  transform: scale(1.5);
+
+}
+/***FIM DO ALMENTO DA IMAGEM**/
+.bolos h4{     /**texto do preço dos bolos**/
+  font-family: late;
+  font-size: 17px;
+  margin-bottom: 10px ;
+  color:black;
+  text-align: center;
+
+}
+.menu{
+  background-color: #fdd2bf;
+ 
+}
+
+
+
+
