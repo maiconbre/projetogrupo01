@@ -1,0 +1,113 @@
+span {
+    font-family:'lobster';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'gloria';
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FDD2BF;
+    overflow: hidden;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 110%;
+    background: #FF6B6B;
+    clip-path: circle(50% at bottom right);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1px 100px;
+    display: flex;
+    align-items:inherit;
+    justify-content: space-between;
+    background-color: #FF6B6B;
+
+}
+header .logo{
+    background-color: #FF6B6B;
+    position: relative;
+    max-width: 100px;
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    color: #B61919;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .text{
+    position: relative;
+    max-width: 1000px;
+    margin-right: 20px;
+}
+.content .text h2{
+    color: #FF6B6B;
+    font-size: 4em;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    font-weight: 700;
+    text-shadow: 3px 2px 3px rgba(54, 53, 53, 0.65);
+}
+.content .text h2 span{
+    font-size: 1.5em;
+    color: #FF6B6B;
+    
+}
+.content .text p{
+    color: #012443;
+    font-size: 1.2em;
+}
+.content .text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #FF6B6B;
+    color: #B61919;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.content .text a:hover{
+    transform: translateY(-10px);
+}
+.boxImg{
+    position: absolute;
+    right: -115px;
+    bottom: -235px;
+}
+.boxImg img{
+    width: 550px;
+}

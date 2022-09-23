@@ -1,0 +1,90 @@
+
+
+nav a:hover{
+    transition: 0.5s;
+    background-color: rgba(22, 20, 19, 0.493);
+    color: rgba(255, 49, 66, 0.897);
+}
+
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea,
+#contact button[type="submit"]{
+    font:400 14px/19px "Opens Sans";
+}
+
+#contact {
+    background-color: rgba(219, 42, 57, 0.897);
+    padding: 25px;
+    margin: 10px 300px 0px 300px;
+    box-shadow: 0 0 2px 0 (0,0,0,0.2), 0.5px 0 rgba(0,0,0, 0.24) ;
+    border: black 1px solid;
+    position: relative;
+    top: 100px;
+}
+#contact h3{
+    color: white;
+    display: block;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family: "Sans family";
+
+}
+#contact h4{
+    color: white;
+    margin: 5px 0 25px;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid pink;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out ;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#contact button[type="submit"]{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: rgb(99, 5, 41);
+    color: rgb(255, 255, 255);
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+#contact button[type="submit"]:hover {
+    background: rgb(156, 4, 77);
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
